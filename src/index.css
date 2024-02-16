@@ -1,0 +1,23 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+input {
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  }
+
+  form {
+      padding: 20px;
+  }
+  table {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+  }
+
+  td {
+    border: 1px solid #333;
+  }
