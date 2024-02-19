@@ -32,10 +32,9 @@ function App() {
     }
   }
 
-  const handleDelete = (index: number) => {
+  const handleDelete = (deletedIndex: number) => {
     let currentState = state;
-    currentState.splice(index,1);
-    setState(currentState);
+    setState(currentState.filter((value,index) => index != deletedIndex ));
   }
 
   const TableRows = () => {
@@ -72,7 +71,5 @@ function App() {
     </>
   )
 }
-
-
 
 export default App

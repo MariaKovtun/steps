@@ -4,7 +4,6 @@ type FormProps = {
     onSubmit: (newRow:{steps:number,date:Date}) => void
 }
  
- 
 const StepsForm = (props: FormProps) => {
     const [state,setState] = useState<{steps:number,date:Date}>({steps:0,date:new Date()});
     
